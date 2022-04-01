@@ -41,6 +41,19 @@ export const ProductTable = styled.table`
   tbody td {
     padding: 12px;
     border-bottom: 1px solid #eee;
+
+    strong {
+      margin-top: 1rem;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    span {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 1rem;
+      font-weight: normal;
+    }
   }
 
   img {
